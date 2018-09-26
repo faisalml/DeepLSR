@@ -37,8 +37,7 @@ SOMEPATH # Some arbitrary path
 Please open new threads or report issues to faisalm@jhu.edu
 
 ## License
-© Durr Lab
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+© Durr Lab - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
