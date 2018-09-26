@@ -22,8 +22,10 @@ All image pairs must be 256x256 and paired together in 512x256 images. '.png' an
 
 ```bash
 SOMEPATH # Some arbitrary path
-├── SUNRGBD # The unzip folder of SUNRGBD.zip
-└── SUNRGBDtoolbox # The unzip folder of SUNRGBDtoolbox.zip
+└── Datasets # The unzip folder of SUNRGBD.zip
+      └── XYZ_Dataset # The unzip folder of SUNRGBDtoolbox.zip
+            ├── test
+            └── train
 ```
 
 ### Installing
