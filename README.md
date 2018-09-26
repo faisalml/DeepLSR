@@ -1,7 +1,8 @@
 # Deep Laser Speckle Reduction (DeepLSR)
 
+If you use this code, please cite:
 
-
+Taylor L. Bobrow, Faisal Mahmood, Niguel Inserni, Nicholas J. Durr, "DeepLSR: Deep learning approach for laser specklereduction"
 
 ## Setup
 
