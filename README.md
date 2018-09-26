@@ -41,7 +41,8 @@ python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0
 
 ### Testing
 ```
-python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 --loadSize 256 --fineSize 256
+python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 
+--loadSize 256 --fineSize 256
 ```
 
 ### Issues
@@ -53,7 +54,7 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 -
 © Durr Lab - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
+- Parts of this code are inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan), [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SNGAN-Projection](https://github.com/pfnet-research/sngan_projection)
 * Google Cloud for subsidized computing resources.
 
 ## Reference
