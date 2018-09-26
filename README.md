@@ -17,6 +17,7 @@ Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr, “DeepLSR: 
 - torchvision>=0.2.1
 - dominate>=2.3.1
 - visdom>=0.1.8.3
+- scipy
 
 ### Dataset
 
