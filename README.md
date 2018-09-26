@@ -30,20 +30,22 @@ SOMEPATH # Some arbitrary path
 
 ### Training
 
-- To train a model:
-
+To train a model:
 ```
 python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0 
 --lambda_L1 70 --niter 200 --niter_decay 200 --pool_size 64 --loadSize 256 --fineSize 256
 ```
 - To view training losses and results, run `python -m visdom.server` and click the URL http://localhost:8097. For cloud servers replace localhost with your IP. 
-- To epoch-wise intermediate training results, `./checkpoints/maps_cyclegan/web/index.html`
+- To epoch-wise intermediate training results, `./checkpoints/DeepLSR/web/index.html`
 
 ### Testing
+
+To test the model:
 ```
 python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 
 --loadSize 256 --fineSize 256
 ```
+The test results will be saved to a html file here: `./results/facades_pix2pix/test_latest/index.html`.
 
 ### Issues
 
@@ -54,7 +56,7 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0
 © [Durr Lab](https://durr.jhu.edu) - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-- Parts of this code are inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan), [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SNGAN-Projection](https://github.com/pfnet-research/sngan_projection)
+- This code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan), [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SNGAN-Projection](https://github.com/pfnet-research/sngan_projection)
 * Subsidized computing resources were provided by Google Cloud.
 
 ## Reference
