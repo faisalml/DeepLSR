@@ -30,12 +30,14 @@ SOMEPATH # Some arbitrary path
 
 ### Training
 
-
+- To train a model:
 
 ```
 python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0 
 --lambda_L1 70 --niter 200 --niter_decay 200 --pool_size 64 --loadSize 256 --fineSize 256
 ```
+- To view training losses and results, run `python -m visdom.server` and click the URL http://localhost:8097. For cloud servers replace localhost with your IP. 
+- To epoch-wise intermediate training results, `./checkpoints/maps_cyclegan/web/index.html`
 
 ### Test
 
