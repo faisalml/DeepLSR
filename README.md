@@ -16,6 +16,16 @@ Taylor L. Bobrow, Faisal Mahmood, Niguel Inserni, Nicholas J. Durr, “DeepLSR: 
 - dominate>=2.3.1
 - visdom>=0.1.8.3
 
+## Dataset
+
+All image pairs must be 256x256 and paired together in 512x256 images. '.png' and '.jpg' files are acceptable. Data needs to be arranged in the following order:
+
+```bash
+SOMEPATH # Some arbitrary path
+├── SUNRGBD # The unzip folder of SUNRGBD.zip
+└── SUNRGBDtoolbox # The unzip folder of SUNRGBDtoolbox.zip
+```
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -87,3 +97,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+
+## Reference
+If you find our work useful in your research please consider citing our paper:
+```
+@inproceedings{bobrow2018deeplsr,
+  title     = {DeepLSR: Deep learning approach for laser speckle reduction},
+  author    = {Taylor L. Bobrow, Faisal Mahmood, Niguel Inserni, Nicholas J. Durr},
+  booktitle = {arXiv},
+  year = {2018}
+}
+```
