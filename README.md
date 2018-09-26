@@ -46,7 +46,8 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 -
 
 ### Issues
 
-Please open new threads or report issues to faisalm@jhu.edu
+- Please open new threads or report issues to faisalm@jhu.edu
+- Immidiate responce to adaptability issues may not be available.
 
 ## License
 © Durr Lab - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -54,7 +55,6 @@ Please open new threads or report issues to faisalm@jhu.edu
 ## Acknowledgments
 
 * Google Cloud for subsidized computing resources.
-
 
 ## Reference
 If you find our work useful in your research please consider citing our paper:
