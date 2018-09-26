@@ -51,11 +51,11 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0
 - Immidiate responce to adaptability issues may not be available.
 
 ## License
-© Durr Lab - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+© [Durr Lab](https://durr.jhu.edu) - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 - Parts of this code are inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan), [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SNGAN-Projection](https://github.com/pfnet-research/sngan_projection)
-* Google Cloud for subsidized computing resources.
+* Subsidized computing resources were provided by Google Cloud.
 
 ## Reference
 If you find our work useful in your research please consider citing our paper:
