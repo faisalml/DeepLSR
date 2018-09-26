@@ -41,7 +41,7 @@ python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0
 ```
 - To view training losses and results, run `python -m visdom.server` and click the URL http://localhost:8097. For cloud servers replace localhost with your IP. 
 - To view epoch-wise intermediate training results, `./checkpoints/DeepLSR/web/index.html`
-- `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with learly decaying learning rate
+- `--niter` number of epochs with constant learning rate `--niter_decay` number of epochs with linearly decaying learning rate
 - `--lr` adjusts the learning rate, default = 0.002
 ### Testing
 
