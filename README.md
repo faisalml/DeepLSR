@@ -45,7 +45,7 @@ To test the model:
 python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 
 --loadSize 256 --fineSize 256
 ```
-The test results will be saved to a html file here: `./results/facades_pix2pix/test_latest/index.html`.
+- The test results will be saved to a html file here: `./results/facades_pix2pix/test_latest/index.html`.
 
 ### Issues
 
