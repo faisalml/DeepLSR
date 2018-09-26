@@ -39,7 +39,10 @@ python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0
 - To view training losses and results, run `python -m visdom.server` and click the URL http://localhost:8097. For cloud servers replace localhost with your IP. 
 - To epoch-wise intermediate training results, `./checkpoints/maps_cyclegan/web/index.html`
 
-### Test
+### Testing
+```
+python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0 --loadSize 256 --fineSize 256
+```
 
 ### Issues
 
