@@ -33,7 +33,8 @@ SOMEPATH # Some arbitrary path
 
 
 ```
-python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0 --lambda_L1 70 --niter 200 --niter_decay 200 --pool_size 64 --loadSize 256 --fineSize 256
+python train.py --dataroot <datapath> --name DeepLSR  --gpu_ids 0 --display_id 0 
+--lambda_L1 70 --niter 200 --niter_decay 200 --pool_size 64 --loadSize 256 --fineSize 256
 ```
 
 ### Test
