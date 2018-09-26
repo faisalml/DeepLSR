@@ -55,7 +55,7 @@ python test.py --dataroot <datapath> --name DeepLSR --gpu_ids 0 --display_id 0
 ### Issues
 
 - Please open new threads or report issues to faisalm@jhu.edu
-- Immidiate responce to minor issues may not be available.
+- Immidiate response to minor issues may not be available.
 
 ## License
 © [Durr Lab](https://durr.jhu.edu) - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
