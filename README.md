@@ -4,6 +4,7 @@ If you use this code, please cite:
 
 Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr, “DeepLSR: Deep learning approach for laser speckle reduction"
 
+<img src="https://github.com/faisalml/DeepLSR/blob/master/imgs/1.gif" width="256"/>    <img src="https://github.com/faisalml/DeepLSR/blob/master/imgs/2.gif" width="256"/>   <img src="https://github.com/faisalml/DeepLSR/blob/master/imgs/3.gif" width="256"/>
 
 
 ## Setup
