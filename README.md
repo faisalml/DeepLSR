@@ -20,7 +20,13 @@ Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr, “DeepLSR: 
 - visdom>=0.1.8.3
 - scipy
 
+### 
+
 ### Dataset
+
+The dataset can be downloaded [here](https://drive.google.com/drive/folders/1fkkPWPUA0xB4M2a8VpO6af0QaxepTSx4?usp=sharing) (7GB).
+
+### Dataset Organization
 
 All image pairs must be 256x256 and paired together in 512x256 images. '.png' and '.jpg' files are acceptable. Data needs to be arranged in the following order:
 
