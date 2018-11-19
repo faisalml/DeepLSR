@@ -80,7 +80,7 @@ If you find our work useful in your research please consider citing our paper:
 ```
 @inproceedings{bobrow2018deeplsr,
   title     = {DeepLSR: Deep learning approach for laser speckle reduction},
-  author    = {Taylor L. Bobrow, Faisal Mahmood, Niguel Inserni, Nicholas J. Durr},
+  author    = {Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr},
   booktitle = {arXiv.1810.10039},
   year = {2018}
 }
