@@ -2,7 +2,7 @@
 
 If you use this code, please cite:
 
-Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr, “DeepLSR: Deep learning approach for laser speckle reduction" [arxiv link](https://arxiv.org/pdf/1810.10039.pdf)
+Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr, “DeepLSR: Deep learning approach for laser speckle reduction" Biomedical Optics Express [arxiv link](https://arxiv.org/pdf/1810.10039.pdf)
 
 
 <img src="https://github.com/faisalml/DeepLSR/blob/master/imgs/5aq.gif" width="256"/>   <img src="https://github.com/faisalml/DeepLSR/blob/master/imgs/6aq.gif" width="256"/>
@@ -82,7 +82,7 @@ If you find our work useful in your research please consider citing our paper:
 @inproceedings{bobrow2018deeplsr,
   title     = {DeepLSR: Deep learning approach for laser speckle reduction},
   author    = {Taylor L. Bobrow, Faisal Mahmood, Miguel Inserni, Nicholas J. Durr},
-  booktitle = {arXiv.1810.10039},
+  booktitle = {Biomedical Optics Express},
   year = {2018}
 }
 ```
